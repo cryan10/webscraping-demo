@@ -1,0 +1,15 @@
+{
+  "name": "import-data",
+  "version": "1.0.0",
+  "description": "Move data to Contentful",
+  "main": "blogPosts.js",
+  "scripts": {
+    "pressReleases": "node pressReleases.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-html-rich-text-converter": "^1.0.9",
+    "contentful-management": "^7.9.0"
+  }
+}
